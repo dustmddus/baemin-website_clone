@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "hana";
+  src: url("../fonts/BMHANNAPro.ttf");
+}
+
+:root {
+  --white-color: #ffffff;
+}
+body {
+  font-family: "hana";
+}
+header {
+  display: flex;
+  position: fixed;
+  padding: 80px 100px;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+header .logo {
+  color: var(--white-color);
+  font-size: 55px;
+  padding-left: 180px;
+  padding-right: 600px;
+}
+
+header .icons {
+  color: var(--white-color);
+  font-size: 40px;
+}
+
+header .icons i {
+  padding-right: 20px;
+}
+
+.appDown {
+  position: fixed;
+  bottom: 0;
+  margin-left: 1200px;
+}
+.appDown img {
+  width: 300px;
+}
+
+#section_one {
+  height: 100vh;
+  background-image: url("https://www.baemin.com/_next/static/images/main_03@2x.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section_one .mainMessage {
+  padding-left: 280px;
+  padding-top: 100px;
+}
+#section_one .mainMessage img {
+  width: 650px;
+}
+
+.rider {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.rider img {
+  width: 13vw;
+}
+
+.scroll {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  padding-bottom: 5px;
+}
+
+.scroll img {
+  width: 90px;
+}
