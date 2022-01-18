@@ -21,8 +21,8 @@ header {
 
 header .logo {
   color: var(--white-color);
-  font-size: 55px;
-  padding-left: 180px;
+  font-size: 3.5rem;
+  padding-left: 150px;
   padding-right: 600px;
 }
 
@@ -35,13 +35,15 @@ header .icons i {
   padding-right: 20px;
 }
 
-.appDown {
+header .scroll {
   position: fixed;
   bottom: 0;
-  margin-left: 1200px;
+  left: 50%;
+  padding-bottom: 5px;
 }
-.appDown img {
-  width: 300px;
+
+header .scroll img {
+  width: 90px;
 }
 
 #section_one {
@@ -50,30 +52,64 @@ header .icons i {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#section_one .mainMessage {
-  padding-left: 280px;
-  padding-top: 100px;
+
+#section_one .appDown {
+  position: fixed;
+  bottom: 0;
+  margin-left: 1200px;
 }
-#section_one .mainMessage img {
-  width: 650px;
+#section_one .appDown img {
+  width: 300px;
 }
 
-.rider {
-  position: absolute;
+#section_one .mainMessage {
+  padding-left: 15%;
+}
+#section_one .mainMessage img {
+  width: 70%;
+}
+
+#section_one .rider {
+  position: fixed;
   right: 0;
   top: 0;
 }
-.rider img {
+#section_one .rider img {
   width: 13vw;
 }
 
-.scroll {
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  padding-bottom: 5px;
+#section_two .imgtrack {
+}
+#section_two .imgtrack img {
 }
 
-.scroll img {
-  width: 90px;
+#section_two .secondMessage {
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  color: var(--white-color);
+}
+
+#section_two .secondMessage img {
+  width: 40%;
+}
+
+#section_two .detail {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+#section_two .date {
+  padding-top: 0.5rem;
+}
+@media screen and (min-width: 768px) {
+  #section_one .mainMessage {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  #section_one .mainMessage {
+    width: 52%;
+  }
 }
