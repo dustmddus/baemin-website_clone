@@ -46,6 +46,17 @@ header .scroll img {
   width: 90px;
 }
 
+header #fixAppDown {
+  width: 10%;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 75%;
+}
+
+.hidden {
+  display: none;
+}
+
 #section_one {
   height: 100vh;
   background-image: url("https://www.baemin.com/_next/static/images/main_03@2x.jpg");
@@ -78,9 +89,34 @@ header .scroll img {
   width: 13vw;
 }
 
-#section_two .imgtrack {
+#section_two .track {
+  position: absolute;
+  top: 0;
+  right: 25%;
+  width: 300px;
 }
-#section_two .imgtrack img {
+#section_two .track img {
+  width: 800px;
+}
+
+#section_two #bike {
+  position: absolute;
+  top: 2%;
+  right: 11%;
+  width: 35%;
+}
+
+.moveBike {
+  animation: motion 0.5s linear forwards;
+}
+
+@keyframes motion {
+  0% {
+    transform: translate(0px, 0px);
+  } /* 처음 위치 */
+  100% {
+    transform: translate(170px, 170px);
+  } /* 마지막 위치 */
 }
 
 #section_two .secondMessage {
