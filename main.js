@@ -10,6 +10,7 @@ $(function () {
       "#2AC1BC",
       "#2AC1BC",
       "#2AC1BC",
+      "#2AC1BC",
       "#FFFFFF",
     ],
     afterLoad: function (anchorLink, index) {
@@ -20,6 +21,16 @@ $(function () {
       if (index == 2) {
         $("#bike").addClass("moveBike");
         $("#fixAppDown").removeClass("hidden");
+      }
+
+      if (index == 3) {
+        $(".peopleImg").addClass("fadeIn");
+      }
+      if (index === 4) {
+        $(".forthImg").addClass("fadeIn");
+      }
+      if (index === 5) {
+        $(".fifthImg").addClass("fadeIn");
       }
     },
     afterSlideLoad: function (anchorLink, index, slideAnchor, slideIndex) {

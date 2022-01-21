@@ -149,3 +149,111 @@ header #fixAppDown {
     width: 52%;
   }
 }
+
+#section_three .thirdMessage {
+  padding-left: 15%;
+  display: flex;
+  flex-direction: column;
+  color: var(--white-color);
+}
+
+#section_three .thirdMessage img {
+  width: 40%;
+}
+
+#section_three .detail_three {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+#section_three .ddetail_three {
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+  opacity: 0.6;
+}
+
+#section_three .peopleImg {
+  position: absolute;
+  width: 80%;
+  bottom: -5px;
+  left: 40%;
+  margin: 0;
+  padding: 0;
+}
+#section_three .peopleImg img {
+  width: 60%;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(500px);
+  }
+  to {
+    transform: none;
+  }
+}
+.fadeIn {
+  animation: fadeIn 0.6s linear forwards;
+}
+
+#section_four .forthMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4%;
+  padding-left: 15%;
+}
+
+#section_four .forthMessage img {
+  width: 40%;
+}
+
+#section_four .forthMessage .detail_four {
+  color: var(--white-color);
+  font-size: 1.8rem;
+  line-height: 2rem;
+  padding-top: 3%;
+}
+
+#section_four .forthMessage .fourLink {
+  width: 20%;
+  padding-top: 3%;
+}
+#section_four .forthImg {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+}
+#section_four .forthImg img {
+  width: 50rem;
+}
+
+#section_five .fifthMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 4%;
+  padding-left: 15%;
+}
+
+#section_five .fifthMessage img {
+  width: 40%;
+}
+
+#section_five .fifthMessage .detail_five {
+  color: var(--white-color);
+  font-size: 1.8rem;
+  line-height: 2rem;
+  padding-top: 3%;
+}
+
+#section_five .fifthImg {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}
+#section_five .fifthImg img {
+  width: 55rem;
+}
